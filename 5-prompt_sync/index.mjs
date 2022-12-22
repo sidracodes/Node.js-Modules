@@ -34,4 +34,5 @@ console.log( isgoodstudent ? "you are a good person" : "notgood" );
 ;
 
 const fav_name = "struffios";
-fav_name && console.log("youtube channel name was struffios :(");
+// backtickss for string literals
+fav_name && console.log(`favourite name: ${fav_name} :(`);
